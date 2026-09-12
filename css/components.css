@@ -1,3 +1,4 @@
+/* Botón de alternancia de tema */
 .btn_tema_toggle {
   position: fixed;
   top: 1rem;
@@ -14,6 +15,31 @@
   transition: var(--transicion);
 }
 
+/* Reglas de Pestañas y Navegación SPA (Solución al texto invisible) */
+.nav_tab,
+.nav_link,
+.tab_btn {
+  color: var(--color_texto);
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: var(--transicion);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav_tab.active,
+.nav_tab.activa,
+.nav_link.active,
+.nav_link.activa,
+.tab_btn.active,
+.tab_btn.activa {
+  background-color: var(--color_nav_bg_activo) !important;
+  color: var(--color_nav_texto_activo) !important;
+  font-weight: 700;
+}
+
+/* Estructura de Tarjetas */
 .seccion_tarjeta {
   background-color: var(--color_tarjeta);
   padding: 2rem;
@@ -61,6 +87,7 @@
   border: 1px solid var(--color_borde);
 }
 
+/* Indicadores de Progreso */
 .bloque_progreso {
   margin-top: 1.5rem;
 }
@@ -76,6 +103,7 @@ meter {
   height: 14px;
 }
 
+/* Tablas */
 .tabla_contenedor {
   overflow-x: auto;
 }
@@ -91,6 +119,7 @@ td {
   padding: 0.75rem;
   border: 1px solid var(--color_borde);
   text-align: center;
+  color: var(--color_texto);
 }
 
 thead th {
@@ -98,6 +127,7 @@ thead th {
   color: var(--color_primario);
 }
 
+/* Formularios */
 fieldset {
   border: 1px solid var(--color_borde);
   border-radius: 8px;

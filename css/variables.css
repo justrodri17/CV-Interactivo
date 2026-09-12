@@ -10,15 +10,23 @@
   --color_exito: #22c55e;
   --sombra: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
   --transicion: all 0.3s ease;
+
+  /* Navegación en modo oscuro */
+  --color_nav_bg_activo: #3b82f6;
+  --color_nav_texto_activo: #ffffff;
 }
 
 [data-theme="light"] {
-  --color_fondo: #f8fafc;
+  --color_fondo: #f1f5f9;
   --color_tarjeta: #ffffff;
   --color_texto: #0f172a;
-  --color_texto_secundario: #475569;
+  --color_texto_secundario: #334155;
   --color_primario: #2563eb;
   --color_primario_hover: #1d4ed8;
-  --color_borde: #e2e8f0;
-  --sombra: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --color_borde: #cbd5e1;
+  --sombra: 0 10px 15px -3px rgba(0, 0, 0, 0.08);
+
+  /* Navegación en modo claro (Garantiza visibilidad y contraste) */
+  --color_nav_bg_activo: #2563eb;
+  --color_nav_texto_activo: #ffffff;
 }
