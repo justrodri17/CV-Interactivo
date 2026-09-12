@@ -208,3 +208,16 @@ legend {
   text-align: center;
   margin-top: 1rem;
 }
+/* Forzar visibilidad en modo claro para cualquier botón/pestaña seleccionada */
+[data-theme="light"] .active,
+[data-theme="light"] .activa,
+[data-theme="light"] [aria-selected="true"] {
+  background-color: #2563eb !important;
+  color: #ffffff !important;
+}
+
+/* Forzar que los links no activos se vean en texto oscuro */
+[data-theme="light"] nav a,
+[data-theme="light"] nav button {
+  color: #0f172a !important;
+}
