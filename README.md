@@ -4,7 +4,7 @@ Este proyecto es una aplicación web de página única (**SPA - Single Page Appl
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - **HTML5 Semántico:** Estructura limpia y accesible utilizando etiquetas estándar (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`).
 - **CSS3 Modular:** Arquitectura CSS organizada por módulos (`base`, `variables`, `components`, `layout`, `animations`) con soporte nativo de **CSS Custom Properties** (variables CSS) para cambio de tema dinámico.
@@ -13,7 +13,7 @@ Este proyecto es una aplicación web de página única (**SPA - Single Page Appl
 
 ---
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```text
 CV-Interactivo/
