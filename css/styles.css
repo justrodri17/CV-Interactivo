@@ -1,0 +1,23 @@
+@import url("variables.css");
+@import url("base.css");
+@import url("layout.css");
+@import url("components.css");
+@import url("animations.css");
+/* Oculta todas las secciones por defecto */
+main section {
+  display: none;
+}
+
+/* Muestra únicamente la sección activa */
+main section.seccion_activa {
+  display: block;
+}
+
+/* Estilo para resaltar el botón/enlace de la pestaña activa */
+.nav_principal a.activo {
+  background-color: var(--color-primary);
+  color: #ffffff;
+  padding: 0.4rem 0.8rem;
+  border-radius: var(--radius);
+  font-weight: 600;
+}

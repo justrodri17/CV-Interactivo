@@ -1,0 +1,81 @@
+.skip_link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--color_primario);
+  color: #ffffff;
+  padding: 8px;
+  z-index: 1000;
+  transition: top 0.3s;
+}
+
+.skip_link:focus {
+  top: 0;
+}
+
+.header_principal {
+  text-align: center;
+  padding: 3rem 1rem 1.5rem;
+  background-color: var(--color_tarjeta);
+  border-bottom: 1px solid var(--color_borde);
+}
+
+.header_principal address {
+  font-style: normal;
+  margin-top: 0.5rem;
+  color: var(--color_texto_secundario);
+}
+
+.nav_principal {
+  background-color: var(--color_tarjeta);
+  border-bottom: 1px solid var(--color_borde);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: var(--sombra);
+}
+
+.nav_principal ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.nav_principal a {
+  color: var(--color_texto);
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: var(--transicion);
+}
+
+.nav_principal a:hover {
+  color: var(--color_primario);
+}
+
+.contenedor_principal {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.grid_habilidades,
+.grid_multimedia {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.footer_principal {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: var(--color_tarjeta);
+  border-top: 1px solid var(--color_borde);
+  margin-top: 3rem;
+  color: var(--color_texto_secundario);
+}
