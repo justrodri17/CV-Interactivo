@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hoja de vida y portafolio profesional de Reynaldo Rodrigo Mariaca Cutipa."
+    />
+    <title>Hoja de Vida | Reynaldo Mariaca</title>
+
+    <!-- Fuente Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Enlaces CSS Modulares -->
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <button id="boton_tema" class="btn_tema_toggle" aria-label="Cambiar tema">
+      <span id="icono_tema">🌙</span>
+      <span id="texto_tema">Modo Oscuro</span>
+    </button>
+
+    <a href="#contenido-principal" class="skip_link"
+      >Saltar al contenido principal</a
+    >
+    <header role="banner" class="header_principal">
+      <img
+        src="assets/images/FotoPropia.jpg"
+        alt="Fotografía profesional de Reynaldo Rodrigo Mariaca Cutipa"
+        width="150"
+        height="150"
+        class="imagen_perfil"
+      />
+
+      <h1>Reynaldo Rodrigo Mariaca Cutipa</h1>
+      <p class="subtitulo">Estudiante de Ingeniería de Sistemas</p>
+      <address>
+        La Paz, Bolivia<br />
+        <a href="mailto:reymacu3107@gmail.com">reymacu3107@gmail.com</a><br />
+        +591 67344081
+      </address>
+    </header>
+
+    <nav aria-label="Navegación principal" class="nav_principal">
+      <ul>
+        <li><a href="#perfil">Perfil</a></li>
+        <li><a href="#educacion">Educación</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#certificaciones">Certificaciones</a></li>
+        <li><a href="#idiomas">Idiomas</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#multimedia">Multimedia</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <main id="contenido-principal" class="contenedor_principal" tabindex="-1">
+      <section
+        id="perfil"
+        aria-labelledby="titulo-perfil"
+        class="seccion_tarjeta animacion_entrada"
+      >
+        <h2 id="titulo-perfil">Perfil Profesional</h2>
+        <p>
+          <strong>Estudiante universitario en curso</strong> de la carrera de
+          Ingeniería de Sistemas en la Universidad Católica Boliviana "San
+          Pablo". Apasionado por la resolución de problemas mediante el
+          <em>desarrollo de software</em>, la lógica de programación y la
+          <mark>estructuración eficiente de bases de datos relacionales</mark>.
+        </p>
+        <p>
+          <strong>Principales fortalezas:</strong> Pensamiento analítico, rápida
+          adaptación a nuevos lenguajes, trabajo en equipo y diseño técnico de
+          sistemas.
+        </p>
+        <p>
+          <strong>Objetivo profesional:</strong> Consolidar conocimientos en
+          desarrollo backend y maquetación web nativa, colaborando en proyectos
+          tecnológicos que optimicen procesos operativos.
+        </p>
+
+        <details class="bloque_detalles">
+          <summary>
+            <strong>Información académica adicional</strong>
+          </summary>
+          <p>
+            Actualmente cursando el área de tecnología con enfoque en
+            arquitecturas modulares.
+          </p>
+        </details>
+      </section>
+
+      <section
+        id="educacion"
+        aria-labelledby="titulo-educacion"
+        class="seccion_tarjeta animacion_entrada"
+      >
+        <h2 id="titulo-educacion">Formación Académica</h2>
+
+        <article class="tarjeta_item">
+          <h3>Ingeniería de Sistemas</h3>
+          <p>Universidad Católica Boliviana "San Pablo" Sede La Paz</p>
+          <p>
+            <time datetime="2025">2025</time> -
+            <time datetime="2026">Presente</time>
+          </p>
+          <p><small>Grado: Licenciatura (En curso)</small></p>
+        </article>
+
+        <article class="tarjeta_item">
+          <h3>
+            Bachillerato Técnico Humanístico en Administración de Empresas
+          </h3>
+          <p>Instituto Domingo Savio 'A'</p>
+          <p>
+            <time datetime="2021">2021</time> -
+            <time datetime="2024">2024</time>
+          </p>
+          <p><small>Grado: Técnico Auxiliar / Bachiller</small></p>
+        </article>
+      </section>
+
+      <section
+        id="experiencia"
+        aria-labelledby="titulo-experiencia"
+        class="seccion_tarjeta animacion_entrada"
+      >
+        <h2 id="titulo-experiencia">
+          Experiencia Profesional y Proyectos Académicos
+        </h2>
+
+        <article class="tarjeta_item">
+          <h3>Desarrollador y Maquetador Web</h3>
+          <p>
+            <strong>Proyecto Portafolio Nativo</strong> | Proyecto Independiente
+          </p>
+          <p><time datetime="2026-08">Agosto 2026</time></p>
+          <p>
+            <strong>Funciones:</strong> Diseño e implementación de interfaz web
+            semántica bajo estándares estrictos HTML5 y principios A11y.
+          </p>
+          <p>
+            <strong>Logro:</strong> Construcción de sitio web accesible y
+            estructurado sin dependencias de frameworks externos.
+          </p>
+        </article>
+
+        <article class="tarjeta_item">
+          <h3>Diseñador de Arquitectura de Datos</h3>
+          <p><strong>Proyecto SaludDigital</strong> | UCB La Paz</p>
+          <p>
+            <time datetime="2026-02">Febrero 2026</time> -
+            <time datetime="2026-03">Marzo 2026</time>
+          </p>
+          <p>
+            <strong>Funciones:</strong> Levantamiento de requerimientos y
+            modelado relacional para expedientes médicos.
+          </p>
+          <p>
+            <strong>Logro:</strong> Normalización completa de la base de datos
+            alcanzando la Tercera Forma Normal (3FN).
+          </p>
+        </article>
+
+        <article class="tarjeta_item">
+          <h3>Coordinador de Lógica de Software</h3>
+          <p><strong>Proyecto RouteMaster</strong> | UCB La Paz</p>
+          <p><time datetime="2026-04">Abril 2026</time></p>
+          <p>
+            <strong>Funciones:</strong> Modelado de diagramas de clases y
+            algoritmos para transporte universitario.
+          </p>
+          <p>
+            <strong>Logro:</strong> Optimización de la estructura Orientada a
+            Objetos para el cálculo de rutas óptimas.
+          </p>
+        </article>
+      </section>
+
+      <section
+        id="habilidades"
+        aria-labelledby="titulo-habilidades"
+        class="seccion_tarjeta animacion_entrada"
+      >
+        <h2 id="titulo-habilidades">Habilidades Técnicas</h2>
+
+        <div class="grid_habilidades">
+          <div class="tarjeta_subitem">
+            <h3>Tecnologías y Lenguajes</h3>
+            <ul>
+              <li>
+                HTML5 Nativo <meter value="0.8" min="0" max="1">80%</meter>
+              </li>
+              <li>
+                CSS3 Nativo <meter value="0.75" min="0" max="1">75%</meter>
+              </li>
+              <li>
+                Java & JavaFX <meter value="0.85" min="0" max="1">85%</meter>
+              </li>
+              <li>
+                Lenguaje C++ <meter value="0.7" min="0" max="1">70%</meter>
+              </li>
+              <li>
+                SQL (PostgreSQL/MySQL)
+                <meter value="0.85" min="0" max="1">85%</meter>
+              </li>
+            </ul>
+          </div>
+
+          <div class="tarjeta_subitem">
+            <h3>Herramientas de Desarrollo</h3>
+            <ul>
+              <li>Visual Studio Code</li>
+              <li>Git & GitHub Desktop</li>
+              <li>pgAdmin / MySQL Workbench</li>
+            </ul>
+          </div>
+
+          <div class="tarjeta_subitem">
+            <h3>Habilidades Profesionales</h3>
+            <ul>
+              <li>Modelado de Datos (1FN, 2FN, 3FN)</li>
+              <li>Pensamiento Algorítmico</li>
+              <li>Trabajo Colaborativo</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bloque_progreso">
+          <label for="avance-carrera"
+            ><strong>Progreso en la Carrera Universitaria:</strong></label
+          ><br />
+          <progress id="avance-carrera" value="40" max="100">40%</progress>
+          <span>40% Completado</span>
+        </div>
+      </section>
+
+      <section
+        id="certificaciones"
+        aria-labelledby="titulo-certificaciones"
+        class="seccion_tarjeta animacion_entrada"
+      >
+        <h2 id="titulo-certificaciones">Certificaciones y Cursos</h2>
+        <ul class="lista_estilizada">
+          <li>
+            <strong>Certificación de Suficiencia en Inglés (B2)</strong> —
+            Instituto StartSmart (<time datetime="2022">2022</time>)
+          </li>
+          <li>
+            <strong>Técnico en Diseño Gráfico</strong> — Instituto Técnico
+            'Columbia' (<time datetime="2023">2023</time>)
+          </li>
+          <li>
+            <strong>Seminario de Tecnologías Web y Desarrollo Nativo</strong> —
+            UCB (<time datetime="2026">2026</time>)
+          </li>
+        </ul>
+      </section>
+
+      <section
+        id="idiomas"
+        aria-labelledby="titulo-idiomas"
+        class="seccion_tarjeta animacion_entrada"
+      >
+        <h2 id="titulo-idiomas">Idiomas</h2>
+        <div class="tabla_contenedor">
+          <table>
+            <caption>
+              Nivel de dominio de idiomas acreditado
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col">Idioma</th>
+                <th scope="col">Lectura</th>
+                <th scope="col">Escritura</th>
+                <th scope="col">Conversación</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Español</th>
+                <td>Avanzado</td>
+                <td>Avanzado</td>
+                <td>Nativo</td>
+              </tr>
+              <tr>
+                <th scope="row">Inglés</th>
+                <td>Intermedio</td>
+                <td>Intermedio</td>
+                <td>Básico</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section
+        id="proyectos"
+        aria-labelledby="titulo-proyectos"
+        class="seccion_tarjeta animacion_entrada"
+      >
+        <h2 id="titulo-proyectos">Proyectos Destacados</h2>
+
+        <article class="tarjeta_item">
+          <h3>RouteMaster - Coordinador de Transporte</h3>
+          <p>
+            <strong>Descripción:</strong> Sistema para la gestión de rutas y
+            horarios del transporte universitario de la UCB.
+          </p>
+          <p>
+            <strong>Tecnologías utilizadas:</strong> Java, Programación
+            Orientada a Objetos, Diagramado UML.
+          </p>
+          <p>
+            <strong>Rol:</strong> Desarrollador Colaborativo de Lógica de
+            Negocio.
+          </p>
+          <p>
+            <strong>Resultado:</strong> Modelado completo de clases y flujo
+            estructurado de datos.
+          </p>
+        </article>
+
+        <article class="tarjeta_item">
+          <h3>SaludDigital - Sistema de Expedientes Médicos</h3>
+          <p>
+            <strong>Descripción:</strong> Diseño conceptual y lógico de base de
+            datos para la administración de historias clínicas.
+          </p>
+          <p>
+            <strong>Tecnologías utilizadas:</strong> SQL, PostgreSQL, Modelado
+            Entidad-Relación.
+          </p>
+          <p>
+            <strong>Rol:</strong> Diseñador y Administrador de Base de Datos.
+          </p>
+          <p>
+            <strong>Resultado:</strong> Base de datos totalmente funcional y
+            libre de redundancias (3FN).
+          </p>
+        </article>
+      </section>
+
+      <section
+        id="multimedia"
+        aria-labelledby="titulo-multimedia"
+        class="seccion_tarjeta animacion_entrada"
+      >
+        <h2 id="titulo-multimedia">Portafolio Multimedia</h2>
+
+        <div class="grid_multimedia">
+          <figure>
+            <img
+              src="assets/images/proyecto.svg"
+              alt="Captura de pantalla del esquema de arquitectura del proyecto SaludDigital"
+            />
+            <figcaption>
+              Figura 1: Diagrama Entidad-Relación desarrollado para el proyecto
+              SaludDigital.
+            </figcaption>
+          </figure>
+
+          <figure>
+            <figcaption>
+              <strong>Presentación de Audio Profesional:</strong>
+            </figcaption>
+            <audio controls>
+              <source src="assets/audios/presentacion.mp3" type="audio/mpeg" />
+              Tu navegador no soporta el elemento de audio.
+            </audio>
+          </figure>
+
+          <figure>
+            <figcaption>
+              <strong>Demostración de Proyecto en Video:</strong>
+            </figcaption>
+            <video controls>
+              <source src="assets/videos/presentacion.mp4" type="video/mp4" />
+              Tu navegador no soporta la reproducción de video.
+            </video>
+          </figure>
+        </div>
+      </section>
+
+      <section
+        id="contacto"
+        aria-labelledby="titulo-contacto"
+        class="seccion_tarjeta animacion_entrada"
+      >
+        <h2 id="titulo-contacto">Formulario de Contacto</h2>
+        <form id="formulario_contacto" class="formulario_contacto" novalidate>
+          <fieldset>
+            <legend>Información del Mensaje</legend>
+
+            <div class="grupo_campo">
+              <label for="nombre">Nombre completo (*):</label>
+              <input
+                type="text"
+                id="nombre"
+                name="nombre"
+                placeholder="Ej. Juan Pérez"
+                required
+                minlength="3"
+                maxlength="50"
+              />
+              <span class="mensaje_error" id="error_nombre"></span>
+            </div>
+
+            <div class="grupo_campo">
+              <label for="correo">Correo electrónico (*):</label>
+              <input
+                type="email"
+                id="correo"
+                name="correo"
+                placeholder="correo@ejemplo.com"
+                required
+              />
+              <span class="mensaje_error" id="error_correo"></span>
+            </div>
+
+            <div class="grupo_campo">
+              <label for="telefono">Teléfono (*):</label>
+              <input
+                type="tel"
+                id="telefono"
+                name="telefono"
+                placeholder="67344081"
+                pattern="[0-9]{8,10}"
+                required
+                aria-describedby="ayuda-tel"
+              />
+              <small id="ayuda-tel">Formato: 8 a 10 dígitos numéricos.</small>
+              <span class="mensaje_error" id="error_telefono"></span>
+            </div>
+
+            <div class="grupo_campo">
+              <label for="motivo">Motivo de contacto (*):</label>
+              <select id="motivo" name="motivo" required>
+                <option value="">-- Seleccione una opción --</option>
+                <option value="oferta">Oferta laboral</option>
+                <option value="proyecto">Propuesta de proyecto</option>
+                <option value="consulta">Consulta general</option>
+              </select>
+              <span class="mensaje_error" id="error_motivo"></span>
+            </div>
+
+            <div class="grupo_campo">
+              <label for="mensaje">Mensaje (*):</label>
+              <textarea
+                id="mensaje"
+                name="mensaje"
+                rows="4"
+                placeholder="Escriba su mensaje aquí..."
+                required
+                minlength="10"
+                maxlength="500"
+              ></textarea>
+              <span class="mensaje_error" id="error_mensaje"></span>
+            </div>
+
+            <div class="grupo_campo_checkbox">
+              <input
+                type="checkbox"
+                id="aceptacion"
+                name="aceptacion"
+                required
+              />
+              <label for="aceptacion"
+                >Acepto el tratamiento de datos personales (*)</label
+              >
+              <span class="mensaje_error" id="error_aceptacion"></span>
+            </div>
+
+            <div class="btn_group">
+              <button type="submit" class="boton_enviar">Enviar Mensaje</button>
+              <button type="reset" class="boton_secundario">
+                Limpiar Formulario
+              </button>
+            </div>
+            <div
+              id="mensaje_exito"
+              class="mensaje_exito"
+              aria-live="polite"
+            ></div>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <footer role="contentinfo" class="footer_principal">
+      <p>
+        &copy; 2026 Reynaldo Rodrigo Mariaca Cutipa. Todos los derechos
+        reservados.
+      </p>
+    </footer>
+
+    <!-- Script de JavaScript en la carpeta js/ -->
+    <script src="js/app.js"></script>
+  </body>
+</html>
